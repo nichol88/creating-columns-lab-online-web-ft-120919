@@ -9,6 +9,8 @@ body, html {
   flex-flow: column;
   text-align: center;
   background-color: #666;
+  align-items: center;
+  margin: auto;
 }
 
 .container, h1 {
@@ -32,9 +34,7 @@ img:hover {
 }
 
 .amiable {
-  display: flex;
-  align-items: center;
-  margin: auto;
+
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
