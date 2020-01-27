@@ -56,10 +56,7 @@ img:hover {
 }
 /* create your tile classes! we recommend .small .med .large */
 .small {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 2em;
-  grid-gap: .5em;
+
 }
 
 .med {
