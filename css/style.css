@@ -52,10 +52,7 @@ img:hover {
 .column {
   display: flex;
   flex-flow: column;
-
   float: left;
-
-  
 }
 
 /* create your tile classes! we recommend .small .med .large */
