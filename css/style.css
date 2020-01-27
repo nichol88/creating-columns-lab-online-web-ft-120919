@@ -62,8 +62,6 @@ img:hover {
 /* create your tile classes! we recommend .small .med .large */
 
 .small {
-  display: flex;
-  flex-flow: column;
   grid-row: span 1;
   grid-column: span 1;
 }
