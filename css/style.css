@@ -52,6 +52,7 @@ img:hover {
 .column {
   display: inline-flex;
   flex-flow: column;
+  vertical-align: top;
   column-width: 30%;
 
 }
