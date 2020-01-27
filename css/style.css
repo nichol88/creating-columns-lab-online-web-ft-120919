@@ -52,7 +52,6 @@ img:hover {
 .column {
   display: flex;
 
-  max-width: 800px;
   margin: 0 auto;
   flex-direction: column;
   column-width: 30%;
