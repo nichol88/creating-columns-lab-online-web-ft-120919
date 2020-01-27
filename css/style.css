@@ -6,7 +6,6 @@ body, html {
   font-family: Apple Chancery, cursive;
   margin: 0 auto;
   
-  flex-flow: column;
   text-align: center;
   background-color: #666;
   align-items: center;
