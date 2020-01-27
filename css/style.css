@@ -52,7 +52,7 @@ img:hover {
 .column {
   display: grid;
   grid-template-columns: auto;
-
+  grid-gap: 1em;
 }
 
 /* create your tile classes! we recommend .small .med .large */
@@ -62,7 +62,7 @@ img:hover {
 }
 
 .med {
-  
+
 }
 
 .large {
