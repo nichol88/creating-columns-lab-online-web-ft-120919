@@ -51,7 +51,7 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 .column {
   display: inline-block;
-  
+
   float: left;
 }
 
@@ -64,7 +64,7 @@ img:hover {
 
 .med {
   display: flex;
-
+  width: 60%;
 }
 
 .large {
