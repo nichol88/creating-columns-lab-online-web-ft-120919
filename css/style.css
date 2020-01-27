@@ -59,6 +59,7 @@ img:hover {
 
 .small {
   display: flex;
+  justify-content: space-between;
 }
 
 .med {
