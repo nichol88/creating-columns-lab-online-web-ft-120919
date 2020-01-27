@@ -58,7 +58,6 @@ img:hover {
 /* create your tile classes! we recommend .small .med .large */
 
 .small {
-  justify-content: center;
   grid-row: span 1;
   grid-column: span 1;
 }
