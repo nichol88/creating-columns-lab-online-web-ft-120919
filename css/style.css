@@ -1,11 +1,16 @@
+
+
 body, html {
   width: 100%;
   height: 100%;
   font-family: Apple Chancery, cursive;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  flex-flow: column;
   text-align: center;
   background-color: #666;
+  align-items: center;
+  margin: auto;
 }
 
 .container, h1 {
@@ -29,9 +34,15 @@ img:hover {
 }
 
 .amiable {
+  display: inherit;
+
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
+}
+
+#photos1 {
+  max-width: 600px;
 }
 
 .indifferent {
@@ -47,5 +58,37 @@ img:hover {
 }
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+.photos_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* create your tile classes! we recommend .small .med .large */
+
+.small {
+  grid-row: span 1;
+  grid-column: span 1;
+  width: 100%;
+}
+
+.med {
+  grid-row:  span 2;
+  grid-column: span 2;
+  width: 100%;
+}
+
+.large {
+  grid-row:  span 3;
+  grid-column: span 3;
+  width: 100%;
+
+}
