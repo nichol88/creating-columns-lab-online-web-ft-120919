@@ -34,6 +34,7 @@ img:hover {
 }
 
 .amiable {
+  display: inherit;
   align-items: center;
   margin: auto;
 
