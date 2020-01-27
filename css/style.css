@@ -53,6 +53,7 @@ img:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
+  display: flex;
 }
 
 /* create your tile classes! we recommend .small .med .large */
@@ -67,7 +68,7 @@ img:hover {
 
   grid-row: span 2;
   grid-column: span 2;
-  
+
 }
 
 .large {
