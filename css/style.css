@@ -61,7 +61,7 @@ img:hover {
 /* create your tile classes! we recommend .small .med .large */
 
 .small {
-
+  flex-flow: wrap;
 }
 
 .med {
