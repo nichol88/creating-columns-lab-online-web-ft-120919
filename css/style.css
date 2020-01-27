@@ -53,13 +53,13 @@ img:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
-  grid-auto-rows: minmax(1fr, 3fr);
 }
 
 /* create your tile classes! we recommend .small .med .large */
 
 .small {
-
+  grid-row: span 1;
+  grid-column: span 1;
 }
 
 .med {
