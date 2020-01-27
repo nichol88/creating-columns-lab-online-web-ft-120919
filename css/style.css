@@ -54,6 +54,7 @@ img:hover {
 .column {
   display: flex;
   justify-content: space-between;
+  flex: 3;
 }
 /* create your tile classes! we recommend .small .med .large */
 .small {
