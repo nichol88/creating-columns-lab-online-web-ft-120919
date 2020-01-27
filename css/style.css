@@ -52,7 +52,7 @@ img:hover {
 .column {
   display: flex;
   flex-flow: column;
-  vertical-align: top;
+  
   float: left;
   margin: auto;
   width: 32%;
