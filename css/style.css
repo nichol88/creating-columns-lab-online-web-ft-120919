@@ -69,7 +69,7 @@ img {
 /* create your tile classes! we recommend .small .med .large */
 
 .small {
-  grid-row: span 1;
+  grid-row: 3 / span 1;
   grid-column: 3 / span 1;
 
 }
