@@ -70,8 +70,8 @@ img {
 
 .small {
   grid-row: span 1;
-  grid-column: span 1;
-  
+  grid-column: 3/ span 1;
+
 }
 
 .med {
