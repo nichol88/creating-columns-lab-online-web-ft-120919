@@ -60,7 +60,7 @@ img:hover {
 
 .small {
   display: grid;
- grid-template-columns: 1fr 1fr 1fr;
+ grid-template-columns: 1fr 2fr 3fr;
  grid-auto-rows: 2em;
  grid-gap: .5em;
 }
