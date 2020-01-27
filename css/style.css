@@ -59,14 +59,11 @@ img:hover {
 /* create your tile classes! we recommend .small .med .large */
 
 .small {
-  
+
 }
 
 .med {
-  display: grid;
- grid-template-columns: 2fr 2fr;
- grid-auto-rows: 2em;
- grid-gap: .5em;
+  
 }
 
 .large {
