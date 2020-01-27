@@ -53,10 +53,9 @@ img:hover {
   display: inline-flex;
   flex-flow: column;
   vertical-align: top;
-
   float: left;
   margin: auto;
-
+  width: 32%;
 }
 
 /* create your tile classes! we recommend .small .med .large */
