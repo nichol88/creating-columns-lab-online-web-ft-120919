@@ -59,11 +59,12 @@ img:hover {
 
 .small {
   display: inline-block;
+  width: 30%;
 }
 
 .med {
   display: flex;
-  
+
 }
 
 .large {
