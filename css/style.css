@@ -52,7 +52,7 @@ img:hover {
 .column {
   display: grid;
   grid-template-columns: auto;
-  width: 32%;
+  
 }
 
 /* create your tile classes! we recommend .small .med .large */
