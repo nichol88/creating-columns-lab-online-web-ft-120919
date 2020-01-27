@@ -61,6 +61,7 @@ img:hover {
 
 img {
   display: flex;
+  justify-content: center;
 }
 
 /* create your tile classes! we recommend .small .med .large */
