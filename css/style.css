@@ -54,7 +54,6 @@ img:hover {
 .column {
   display: flex;
   vertical-align: top;
-
 }
 /* create your tile classes! we recommend .small .med .large */
 .small {
