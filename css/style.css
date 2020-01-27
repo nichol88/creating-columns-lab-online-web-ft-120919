@@ -54,6 +54,7 @@ img:hover {
 .column {
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
 }
 /* create your tile classes! we recommend .small .med .large */
 .small {
