@@ -64,9 +64,10 @@ img:hover {
 }
 
 .med {
-  display: flex;
+
   grid-row: span 2;
   grid-column: span 2;
+  display: flex;
 }
 
 .large {
