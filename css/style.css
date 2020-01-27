@@ -54,6 +54,7 @@ img:hover {
   flex-flow: column;
   vertical-align: top;
   column-width: 30%;
+  float: left;
 
 }
 
