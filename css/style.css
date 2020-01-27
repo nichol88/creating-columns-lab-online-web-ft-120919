@@ -60,7 +60,7 @@ img:hover {
 .small {
   display: flex;
   justify-content: space-between;
-  flex: auto;
+  
 }
 
 .med {
