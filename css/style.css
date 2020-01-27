@@ -53,6 +53,7 @@ img:hover {
   display: inline-flex;
   flex-direction: column;
   column-width: 30%;
+  flex-flow: column;
 }
 
 /* create your tile classes! we recommend .small .med .large */
